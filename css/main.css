@@ -84,6 +84,15 @@ img {
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+  .calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -13px;
+    margin-top: -13px;
+  }
+}
+
 .calendar-2024-box {
   margin-top: 13px;
   margin-left: 13px;
@@ -91,6 +100,13 @@ img {
   height: 476px;
   padding: 17px;
   border: 1px solid #D3D0DA;
+}
+
+@media screen and (max-width: 768px) {
+  .calendar-2024-box {
+    display: block;
+    width: 473px;
+  }
 }
 
 .title-calendar-2024-box {

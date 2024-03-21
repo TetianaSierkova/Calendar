@@ -2,7 +2,7 @@
     width: 970px;
 
     @media screen and (max-width: 768px) {
-        width: 500px;
+        width: 480px;
     }
 }
 
@@ -43,6 +43,7 @@
     
     @media screen and (max-width: 768px) {
         display: block;
+        margin-left: 0;
     }
 }
 
@@ -53,6 +54,10 @@
     height: 476px;
     padding: 17px;
     border: 1px solid #D3D0DA;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 0;
+    }
 }
 
 .title-calendar-2024-box {

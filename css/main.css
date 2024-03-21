@@ -40,8 +40,6 @@ img {
   margin: 0 auto;
   padding-top: 0;
   padding-bottom: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .section-calendar-2024 {
@@ -50,7 +48,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .section-calendar-2024 {
-    width: 500px;
+    width: 480px;
   }
 }
 
@@ -93,6 +91,7 @@ img {
 @media screen and (max-width: 768px) {
   .calendar-container {
     display: block;
+    margin-left: 0;
   }
 }
 
@@ -103,6 +102,12 @@ img {
   height: 476px;
   padding: 17px;
   border: 1px solid #D3D0DA;
+}
+
+@media screen and (max-width: 768px) {
+  .calendar-2024-box {
+    margin-left: 0;
+  }
 }
 
 .title-calendar-2024-box {

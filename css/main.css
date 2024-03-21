@@ -48,6 +48,12 @@ img {
   width: 970px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-calendar-2024 {
+    width: 710px;
+  }
+}
+
 .title-container-calendar-2024 {
   background-color: #0BAF4D;
   width: 100%;
@@ -84,12 +90,9 @@ img {
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .calendar-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -13px;
-    margin-top: -13px;
+    display: block;
   }
 }
 

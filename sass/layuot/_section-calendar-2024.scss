@@ -1,5 +1,9 @@
 .section-calendar-2024 {
     width: 970px;
+
+    @media screen and (max-width: 768px) {
+        width: 710px;
+    }
 }
 
 .title-container-calendar-2024 {
@@ -37,11 +41,8 @@
     display: flex;
     flex-wrap: wrap;
     
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -13px;
-        margin-top: -13px;
+    @media screen and (max-width: 768px) {
+        display: block;
     }
 }
 

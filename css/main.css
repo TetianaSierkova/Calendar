@@ -40,6 +40,8 @@ img {
   margin: 0 auto;
   padding-top: 0;
   padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section-calendar-2024 {
@@ -48,7 +50,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .section-calendar-2024 {
-    width: 480px;
+    width: 470px;
   }
 }
 

@@ -105,13 +105,6 @@ img {
   border: 1px solid #D3D0DA;
 }
 
-@media screen and (max-width: 768px) {
-  .calendar-2024-box {
-    display: block;
-    width: 473px;
-  }
-}
-
 .title-calendar-2024-box {
   font-weight: 600;
   font-size: 20px;

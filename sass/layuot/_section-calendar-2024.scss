@@ -49,16 +49,10 @@
 .calendar-2024-box {
     margin-top: 13px;
     margin-left: 13px;
-    //flex-basis: 100%;
     width: 463px;
     height: 476px;
     padding: 17px;
     border: 1px solid #D3D0DA;
-
-    @media screen and (max-width: 768px) {
-        display: block;
-        width: 473px;
-    }
 }
 
 .title-calendar-2024-box {
